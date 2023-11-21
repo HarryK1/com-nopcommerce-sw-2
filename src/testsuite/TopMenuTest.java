@@ -39,13 +39,11 @@ public class TopMenuTest extends BaseTest {
     @Test
     public void userShouldNavigateToComputerPageSuccessfully(){
         WebElement loginLink = driver.findElement(By.linkText("Log in"));
-        loginLink.click();
-        Random randomGenerator = new Random();
-        int randomInt = randomGenerator.nextInt(1000);
+        loginLink.click();               
         //enter valid username
-        driver.findElement(By.id("Email")).sendKeys("username" + randomInt + "@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("friday@gmail.com");
         //enter valid password
-        driver.findElement(By.id("Password")).sendKeys("tuesday");
+        driver.findElement(By.id("Password")).sendKeys("friday");
         //click on login button
         driver.findElement(By.xpath("//button[text()='Log in']")).click();
         //click on the Computers tab
@@ -61,9 +59,9 @@ public class TopMenuTest extends BaseTest {
         WebElement loginLink = driver.findElement(By.linkText("Log in"));
         loginLink.click();
         //Enter valid username
-        driver.findElement(By.id("Email")).sendKeys("tuesday@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("friday@gmail.com");
         //Enter valid password
-        driver.findElement(By.id("Password")).sendKeys("tuesday");
+        driver.findElement(By.id("Password")).sendKeys("friday");
         //Click on login button
         driver.findElement(By.xpath("//button[text()='Log in']")).click();
         //click on the Electronics tab
@@ -78,9 +76,9 @@ public class TopMenuTest extends BaseTest {
         WebElement loginLink = driver.findElement(By.linkText("Log in"));
         loginLink.click();
         //enter valid username
-        driver.findElement(By.id("Email")).sendKeys("tuesday@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("friday@gmail.com");
         //enter valid password
-        driver.findElement(By.id("Password")).sendKeys("tuesday");
+        driver.findElement(By.id("Password")).sendKeys("friday");
         //click on login button
         driver.findElement(By.xpath("//button[text()='Log in']")).click();
         //click on Apparel tab
@@ -96,9 +94,9 @@ public class TopMenuTest extends BaseTest {
         WebElement loginLink = driver.findElement(By.linkText("Log in"));
         loginLink.click();
         //enter valid username
-        driver.findElement(By.id("Email")).sendKeys("tuesday@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("friday@gmail.com");
         //enter valid password
-        driver.findElement(By.id("Password")).sendKeys("tuesday");
+        driver.findElement(By.id("Password")).sendKeys("friday");
         //click on login button
         driver.findElement(By.xpath("//button[text()='Log in']")).click();
         //click on Digital downloads tab
@@ -114,9 +112,9 @@ public class TopMenuTest extends BaseTest {
         WebElement loginLink = driver.findElement(By.linkText("Log in"));
         loginLink.click();
         //enter valid username
-        driver.findElement(By.id("Email")).sendKeys("tuesday@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("friday@gmail.com");
         //enter valid password
-        driver.findElement(By.id("Password")).sendKeys("tuesday");
+        driver.findElement(By.id("Password")).sendKeys("friday");
         //click on login button
         driver.findElement(By.xpath("//button[text()='Log in']")).click();
         //click on Books tab
@@ -132,9 +130,9 @@ public class TopMenuTest extends BaseTest {
         WebElement loginLink = driver.findElement(By.linkText("Log in"));
         loginLink.click();
         //enter valid username
-        driver.findElement(By.id("Email")).sendKeys("tuesday@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("friday@gmail.com");
         //enter valid password
-        driver.findElement(By.id("Password")).sendKeys("tuesday");
+        driver.findElement(By.id("Password")).sendKeys("friday");
         //click on login button
         driver.findElement(By.xpath("//button[text()='Log in']")).click();
         //click on Jewelery tab
@@ -150,9 +148,9 @@ public class TopMenuTest extends BaseTest {
         WebElement loginLink = driver.findElement(By.linkText("Log in"));
         loginLink.click();
         //enter valid username
-        driver.findElement(By.id("Email")).sendKeys("tuesday@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("friday@gmail.com");
         //enter valid password
-        driver.findElement(By.id("Password")).sendKeys("tuesday");
+        driver.findElement(By.id("Password")).sendKeys("friday");
         //click on login button
         driver.findElement(By.xpath("//button[text()='Log in']")).click();
         //click on Gift Cards tab
